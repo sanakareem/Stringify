@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.incubyte.StringCalculatorTest" time="0.02" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.incubyte.StringCalculatorTest" time="0.02" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mafrozahshaikh/Desktop/Incubyte/string-calculator/target/surefire/surefirebooter12571851658460656313.jar /Users/mafrozahshaikh/Desktop/Incubyte/string-calculator/target/surefire 2024-12-19T14-13-46_552-jvmRun1 surefire2593757808488121077tmp surefire_011301190034692399869tmp"/>
+    <property name="sun.java.command" value="/Users/mafrozahshaikh/Desktop/Incubyte/string-calculator/target/surefire/surefirebooter2567072425909184728.jar /Users/mafrozahshaikh/Desktop/Incubyte/string-calculator/target/surefire 2024-12-19T14-26-27_627-jvmRun1 surefire7244626648636866593tmp surefire_01647857165992548231tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/mafrozahshaikh/Desktop/Incubyte/string-calculator/target/test-classes:/Users/mafrozahshaikh/Desktop/Incubyte/string-calculator/target/classes:/Users/mafrozahshaikh/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/mafrozahshaikh/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mafrozahshaikh/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/mafrozahshaikh/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mafrozahshaikh/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/mafrozahshaikh/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/mafrozahshaikh/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/mafrozahshaikh/Desktop/Incubyte/string-calculator/target/surefire/surefirebooter12571851658460656313.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mafrozahshaikh/Desktop/Incubyte/string-calculator/target/surefire/surefirebooter2567072425909184728.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.4+7-LTS"/>
@@ -58,13 +58,14 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="shouldReturnNumberForSingleNumber" classname="com.incubyte.StringCalculatorTest" time="0.01"/>
-  <testcase name="shouldHandleNewLinesBetweenNumbers" classname="com.incubyte.StringCalculatorTest" time="0"/>
-  <testcase name="shouldReturnZeroForEmptyString" classname="com.incubyte.StringCalculatorTest" time="0.001"/>
-  <testcase name="shouldThrowExceptionForNegativeNumber" classname="com.incubyte.StringCalculatorTest" time="0.003"/>
+  <testcase name="shouldReturnNumberForSingleNumber" classname="com.incubyte.StringCalculatorTest" time="0.009"/>
+  <testcase name="shouldHandleNewLinesBetweenNumbers" classname="com.incubyte.StringCalculatorTest" time="0.001"/>
+  <testcase name="shouldReturnZeroForEmptyString" classname="com.incubyte.StringCalculatorTest" time="0"/>
+  <testcase name="shouldThrowExceptionForNegativeNumber" classname="com.incubyte.StringCalculatorTest" time="0.004"/>
   <testcase name="shouldReturnSumForMultipleNumbers" classname="com.incubyte.StringCalculatorTest" time="0"/>
   <testcase name="shouldSupportMultipleDelimiters" classname="com.incubyte.StringCalculatorTest" time="0"/>
   <testcase name="shouldSupportCustomDelimiter" classname="com.incubyte.StringCalculatorTest" time="0.001"/>
-  <testcase name="shouldReturnSumForTwoNumbers" classname="com.incubyte.StringCalculatorTest" time="0.001"/>
+  <testcase name="shouldReturnSumForTwoNumbers" classname="com.incubyte.StringCalculatorTest" time="0"/>
+  <testcase name="testNegativeNumbers" classname="com.incubyte.StringCalculatorTest" time="0.001"/>
   <testcase name="shouldShowAllNegativeNumbersInExceptionMessage" classname="com.incubyte.StringCalculatorTest" time="0"/>
 </testsuite>

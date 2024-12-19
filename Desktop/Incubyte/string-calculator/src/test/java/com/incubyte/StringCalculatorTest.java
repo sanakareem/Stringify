@@ -64,4 +64,12 @@ class StringCalculatorTest {
     void shouldSupportMultipleDelimiters() {
         assertEquals(6, calculator.add("//[;][#]\n1;2#3"));
     }
+
+    @Test
+    void testNegativeNumbers() {
+    StringCalculator calculator = new StringCalculator();
+    IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> calculator.add("-1"));
+    assertEquals("negative numbers not allowed [-1]", exception.getMessage());
+}
+
 }
